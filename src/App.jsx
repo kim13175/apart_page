@@ -1,12 +1,11 @@
-import { useState } from 'react'
-import NavigateBar from './Component/NavigateBar'
+import Layout from "./Component/Layout"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <NavigateBar />
+      <Layout>
+        <p>테스트</p>
+      </Layout>
     </>
   )
 }
