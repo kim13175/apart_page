@@ -10,7 +10,7 @@ export const CENTER = [
         image: "/Image/culture_center.png",
     },
     {
-        title: "내 손안에펼쳐지는 편리함이 적용된 롯데 스마트홈 어플리케이션과  일상의 가치를 높이는 기술력을  담은 특별한 라이프 시스템 적용",
+        title: "내 손안에 펼쳐지는 편리함이 적용된 롯데 스마트홈 어플리케이션과  일상의 가치를 높이는 기술력을  담은 특별한 라이프 시스템 적용",
         subscribtion: "스마트폰 어플리케이션을 설치하여 언제 어디서나 집의 상태를 확인하고 원격으로 제어 가능",
         image: "/Image/smart_home_care.png",
     },

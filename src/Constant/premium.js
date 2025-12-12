@@ -1,4 +1,4 @@
-const PREMIUM = [
+export const PREMIUM = [
     {
         title: "김해시 학업성취도, 대학진학률 TOP 5 내 명문학군 초인접",
         subscribtion: "초품아 단지에 이은 도보통학 모두 가능한 구산 중/고교 명문 학세권",
