@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <div className="flex flex-col px-10 py-6 gap-4 bg-gray-700 text-white justify-center items-center">
             <h3 className="font-bold">{APARTMENT_TITLE}</h3>
-            <p className="text-gray-400 text-center">{APARTMENT_TITLE} | 경상남도 김해시 구산동 583</p>
+            <p className="text-gray-400 text-center whitespace-nowrap">{APARTMENT_TITLE} | 경상남도 김해시 구산동 583</p>
             <div className="text-center">
                 <p className="whitespace-pre-line text-xs text-gray-400">{footerSection}</p>
             </div>
