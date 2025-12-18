@@ -2,6 +2,6 @@
 
 @layer components {
   .hover-effect {
-    @apply cursor-pointer hover:scale-105 hover:transition-all hover:duration-200 hover:font-bold whitespace-nowrap
+    @apply cursor-pointer hover:scale-105 hover:transition-all hover:duration-200 hover:font-bold whitespace-nowrap active:font-bold active:scale-105
   }
 }

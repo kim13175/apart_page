@@ -26,3 +26,22 @@ export const OPTION = [
         alt: "84E_type",     
     },
 ]
+
+export const APART_IMAGE = [
+    {
+        src: "/Image/apart_image.png",
+        alt: "전체 이미지",
+    },
+    {
+        src: "/Image/satellite_image.png",
+        alt: "위성 사진",
+    },
+    {
+        src: "/Image/location_image.png",
+        alt: "위치 정보"
+    },
+    {
+        src: "Image/outer_image.png",
+        alt: "외부 단지 이미지"
+    }
+];
