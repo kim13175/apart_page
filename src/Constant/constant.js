@@ -29,6 +29,10 @@ export const OPTION = [
 
 export const APART_IMAGE = [
     {
+        src: "/Image/skiagram.png",
+        alt: "투시도"
+    },
+    {
         src: "/Image/apart_image.png",
         alt: "전체 이미지",
     },
@@ -43,5 +47,9 @@ export const APART_IMAGE = [
     {
         src: "Image/outer_image.png",
         alt: "외부 단지 이미지"
-    }
+    },
+    {
+        src: "Image/amenities.png",
+        alt: "편의시설 배치도"
+    },
 ];

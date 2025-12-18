@@ -10,7 +10,7 @@ const ApartGallery = () => {
                 <img
                     src={APART_IMAGE[currentIndex].src}
                     alt={APART_IMAGE[currentIndex].alt}
-                    className="w-full h-[700px] object-cover transition-opacity duration-500 ease-in-out"
+                    className="w-full h-[700px] object-fill transition-opacity duration-500 ease-in-out"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black/60 p-6">
                     <p className="text-white text-sm font-bold">{APART_IMAGE[currentIndex].alt}</p>
