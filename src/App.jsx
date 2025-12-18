@@ -7,6 +7,7 @@ import { PREMIUM } from "./Constant/premium"
 import { OPTION } from "./Constant/constant"
 import ApartGallery from "./Component/ApartGallery"
 import { useRef } from "react"
+import TelAdd from "./Component/TelAdd"
 
 function App() {
   const introRef = useRef(null)
@@ -30,10 +31,7 @@ function App() {
               김해 구산 롯데 캐슬 시그니처 총 714세대의 프리미엄 랜드마크 단지
             </h1>
             <ApartGallery />
-            <div className="flex flex-col justify-center items-center text-2xl font-bold text-amber-600 gap-2 animate-blink p-4 border-2">
-              <h3>상담 문의</h3>
-              <h3>1844-1646</h3>
-            </div>
+            <TelAdd />
           </div>
           <div ref={envRef}>
             <Poster postArray={PREMIUM} />
@@ -43,6 +41,7 @@ function App() {
             <h2 className="font-bold text-xl">단지 정보 <span className="text-sm">(옆으로 넘기시면 단지 옵션들을 볼 수 있습니다.)</span></h2>
             <ImageSlider imageArray={OPTION} autoPlay={true} />
           </div>
+          <TelAdd />
           <img src="/Image/insentive.png" />
           <div ref={resevationRef}>
             <Notifications />
