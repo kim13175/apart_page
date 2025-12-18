@@ -5,3 +5,12 @@
     @apply cursor-pointer hover:scale-105 hover:transition-all hover:duration-200 hover:font-bold whitespace-nowrap active:font-bold active:scale-105
   }
 }
+
+@theme {
+  --animate-blink: blink 1.5s ease-in-out infinite;
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+}
