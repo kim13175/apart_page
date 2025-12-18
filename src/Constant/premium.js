@@ -19,9 +19,4 @@ export const PREMIUM = [
         subscribtion: "도보거리 내 24시간 운영되는 할인마트와 종합병원으로 더욱 편리하고 안전한 생활권",
         image: "/Image/mall_area.png",
     },
-    {
-        title: "김해 랜드마크가 될 김해종합운동장(예정) 그리고 분성산과 해반천이 인접해 건강한 삶을 누리며",
-        subscribtion: "도심속 자연환경을 통해 쾌적하고 즐거운 힐링라이프 실현",
-        image: "/Image/mall_area.png",
-    },
 ]

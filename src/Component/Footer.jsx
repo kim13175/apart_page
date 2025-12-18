@@ -15,7 +15,7 @@ const Footer = () => {
                 <p className="whitespace-pre-line text-xs text-gray-400">{footerSection}</p>
             </div>
             <div className="text-center text-sm font-bold">
-                <p>{TELL_NUMBER}</p>
+                <p className="text-3xl p-4">{TELL_NUMBER}</p>
             </div>
         </div>
     )

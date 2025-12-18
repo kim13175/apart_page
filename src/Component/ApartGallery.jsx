@@ -6,7 +6,6 @@ const ApartGallery = () => {
 
     return (
         <div className="w-full mx-auto">
-            <p className="text-md md:text-lg lg:text-xl text-amber-500 font-bold text-center p-2 animate-pulse">보고 싶은 이미지를 클릭 해보세요</p>
             <div className="grid grid-cols-3 lg:grid-cols-6 w-full items-center justify-center font-bold">
                 {APART_IMAGE.map((image, index) => (
                     <button

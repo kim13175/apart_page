@@ -27,9 +27,10 @@ function App() {
       <Layout navItems={navItems}>
         <div className="flex flex-col gap-4">
           <div className="flex flex-col w-full gap-4" ref={introRef}>
-            <h1 className="text-sm md:text-xl lg:text-2xl text-amber-700 font-bold text-center p-2">
-              김해 구산 롯데 캐슬 시그니처 총 714세대의 프리미엄 랜드마크 단지
-            </h1>
+            <div className="flex flex-col text-amber-700 text-center p-2 gap-4">
+              <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">김해 구산 롯데 캐슬 시그니처</h1>
+              <h3 className="text-sm md:text-lg lg:text-xl">총 714세대의 프리미엄 랜드마크 단지</h3>
+            </div>
             <ApartGallery />
             <TelAdd />
           </div>
