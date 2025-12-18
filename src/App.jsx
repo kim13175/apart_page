@@ -26,7 +26,7 @@ function App() {
       <Layout navItems={navItems}>
         <div className="flex flex-col gap-4">
           <div className="flex flex-col w-full gap-4" ref={introRef}>
-            <h1 className="text-2xl text-amber-700 font-bold">
+            <h1 className="text-lg md:text-xl text-amber-700 font-bold">
               김해 구산 롯데 캐슬 시그니처 총 714세대의 프리미엄 랜드마크 단지
             </h1>
             <ApartGallery />
