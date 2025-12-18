@@ -56,7 +56,7 @@ const ImageSlider = ({
           <img 
             src={imageArray[currentIndex].src} 
             alt={imageArray[currentIndex].alt || `슬라이드 ${currentIndex + 1}`}
-            className="w-full h-full object-contain"
+            className="w-full h-full object-fill"
           />
         </div>
         <button 
