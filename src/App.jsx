@@ -4,7 +4,7 @@ import Notifications from "./Component/Notifications"
 import Poster from "./Component/Poster"
 import { CENTER } from "./Constant/center"
 import { PREMIUM } from "./Constant/premium"
-import { OPTION } from "./Constant/constant"
+import { APARTMENT_TITLE, OPTION } from "./Constant/constant"
 import ApartGallery from "./Component/ApartGallery"
 import { useRef } from "react"
 import TelAdd from "./Component/TelAdd"
@@ -43,7 +43,7 @@ function App() {
             <ImageSlider imageArray={OPTION} autoPlay={true} />
           </div>
           <TelAdd />
-          <img src="/Image/insentive.png" />
+          <img src="/Image/insentive.png" alt={`${APARTMENT_TITLE} 분양 혜택`} />
           <div ref={resevationRef}>
             <Notifications />
           </div>

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { APARTMENT_TITLE } from '../Constant/constant';
 
 const ImageSlider = ({ 
   imageArray,
@@ -55,7 +56,7 @@ const ImageSlider = ({
         <div className="w-full h-full flex items-center justify-center">
           <img 
             src={imageArray[currentIndex].src} 
-            alt={imageArray[currentIndex].alt || `슬라이드 ${currentIndex + 1}`}
+            alt={`${APARTMENT_TITLE} imageArray[currentIndex].alt` || `${APARTMENT_TITLE} 슬라이드 ${currentIndex + 1}`}
             className="w-full h-full object-fill"
           />
         </div>

@@ -1,4 +1,5 @@
 import { MoveRight } from "lucide-react"
+import { APARTMENT_TITLE } from "../Constant/constant"
 
 const Notifications = () => {
 
@@ -19,7 +20,7 @@ const Notifications = () => {
                 </div>
             </div>
             <div>
-                <img src="/Image/apart_image.png" className="w-full h-full"/>
+                <img src="/Image/apart_image.png" alt={`${APARTMENT_TITLE} 이미지`} className="w-full h-full"/>
             </div>
        </div> 
     )

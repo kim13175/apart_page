@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { APART_IMAGE } from "../Constant/constant";
+import { APART_IMAGE, APARTMENT_TITLE } from "../Constant/constant";
 
 const ApartGallery = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,7 +24,7 @@ const ApartGallery = () => {
             <div className="relative w-full overflow-hidden shadow-lg bg-gray-100">
                 <img
                     src={APART_IMAGE[currentIndex].src}
-                    alt={APART_IMAGE[currentIndex].alt}
+                    alt={`${APARTMENT_TITLE} APART_IMAGE[currentIndex].alt`}
                     className="w-full h-[400px] sm:h-[500px] md:h-[600px] object-fill transition-opacity duration-500 ease-in-out"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black/60 p-6">
